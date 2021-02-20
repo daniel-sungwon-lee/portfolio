@@ -3,7 +3,7 @@ import TypeWriter from 'typewriter-effect';
 
 export default function Home(props) {
   return (
-    <div className="container" id="home">
+    <div className="home" id="home">
       <h1 className="typewriter">
         <TypeWriter
           options={
