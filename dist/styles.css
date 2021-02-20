@@ -18,3 +18,7 @@ html{
 .nav-links:hover{
   color: #E12121;
 }
+
+.container{
+  margin: 4rem auto 6rem;
+}
