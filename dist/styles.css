@@ -1,6 +1,9 @@
 * {
   font-family: Product Sans;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /*nav*/
 .overlay{
