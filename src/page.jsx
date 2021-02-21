@@ -5,6 +5,7 @@ import About from './about';
 import Projects from './projects';
 import Skills from './skills';
 import Contact from './contact';
+import TypeWriter from 'typewriter-effect';
 
 export default class Page extends React.Component {
   constructor(props) {
@@ -25,6 +26,18 @@ export default class Page extends React.Component {
         <Projects />
         <Skills />
         <Contact />
+        <footer className="text-center h6">
+          <TypeWriter
+            options={
+              {
+                strings: [`Made from scratch with <i class="fas fa-heart" style="color: #E81224"></i> using React, npm, webpack, Babel, Bootstrap, and Netlify`],
+                autoStart: true,
+                deleteSpeed: 3,
+                loop: true
+              }
+            }
+            />
+        </footer>
       </>
     )
   }

@@ -40,6 +40,7 @@ export default function About(props){
       <h3 className="font-weight-bold mt-5">Some of my interests (other than coding)...</h3>
       <div className="h4 text">
         <ul>
+          <li>God; the one and only</li>
           <li>Nature, especially the mountains; a nice break from the world</li>
           <li>Cooking from scratch; going to the grocery store and bringing items together to put in my mouth</li>
           <li>Reading the Nutrition Facts label; the more you know, the more you don't want put that stuff in your body</li>
@@ -48,8 +49,9 @@ export default function About(props){
           <li>Good design; whether that be websites, apps, logos, icons, cars, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
           <li>Minimalism; you really don't need that much in life</li>
           <li>Films; LOTR, Star Wars, Breaking Bad, The Dark Knight, Catch Me If You Can, Pulp Fiction, Forrest Gump, The Pursuit of Happyness, to name a few...</li>
+          <li>Intellectual, inspirational, motivational, and thought provoking quotes; also made an app that generates random quotes and other stuff, check it out <a href="https://daniel-sungwon-lee.github.io/ajax-project/" target="_blank" className="text-decoration-none">here!</a> (sorry I'll stop)</li>
           <li>Memes; the danker the better</li>
-          <li>Semicolons;</li>
+          <li>Semicolons; in English, not so much in JavaScript</li>
         </ul>
       </div>
     </div>
