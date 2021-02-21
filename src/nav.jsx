@@ -19,7 +19,7 @@ export default function Nav(props) {
       </nav>
       <div className="collapse position-relative border-0" id="navbarToggleExternalContent">
         <div className="p-4 pb-5 border-0" style={black}>
-            <a href="#home" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Home</h3></a>
+            <a href="#" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Home</h3></a>
             <a href="#about" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">About</h3></a>
             <a href="#projects" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Projects</h3></a>
             <a href="#skills" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Skills</h3></a>

@@ -3,19 +3,41 @@ import TypeWriter from 'typewriter-effect';
 
 export default function Home(props) {
   return (
-    <div className="container home" id="home">
+    <div className="container home" id="">
       <h1 className="typewriter">
         <TypeWriter
+          onInit={
+            typewriter => {
+              typewriter
+                .typeString(`Hello, World <i class="fas fa-terminal"></i>`)
+                .pauseFor(3000)
+                .deleteAll()
+                .typeString(`I'm Daniel`)
+                .pauseFor(3000)
+                .deleteChars(6)
+                .typeString(`a web developer`)
+                .pauseFor(3000)
+                .deleteChars(13)
+                .typeString(`software engineer`)
+                .pauseFor(3000)
+                .deleteChars(17)
+                .typeString(`programmer`)
+                .pauseFor(3000)
+                .deleteChars(10)
+                .typeString(`problem solver`)
+                .pauseFor(3000)
+                .deleteChars(14)
+                .typeString(`thinker`)
+                .pauseFor(3000)
+                .deleteChars(9)
+                .typeString(`always learning`)
+                .pauseFor(3000)
+                .deleteAll()
+                .start()
+            }
+          }
           options={
             {
-              strings:[
-                `Hello, World <i class="fas fa-terminal"></i> <i class="fas fa-exclamation"></i>`,
-                `Hello there!`,
-                `Welcome!`,
-                `안녕하세요!`
-              ],
-              autoStart:true,
-              pauseFor: 3000,
               loop: true
             }
           }

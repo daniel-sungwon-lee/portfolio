@@ -19,7 +19,13 @@ html{
   color: #E12121;
 }
 
+/*home section*/
 .home{
-  margin: 9rem auto 6rem;
-  height: 609px;
+  margin: 9rem auto 0rem;
+  height: 100vh;
+}
+
+/*about section*/
+.about-me{
+  line-height: 1.5;
 }
