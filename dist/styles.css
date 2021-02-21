@@ -26,6 +26,9 @@ html{
 }
 
 /*about section*/
-.about-me{
+.about{
+  margin-bottom: 9rem;
+}
+.text{
   line-height: 1.5;
 }

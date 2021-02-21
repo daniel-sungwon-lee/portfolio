@@ -6,7 +6,8 @@ export default function About(props){
       <h1 className="text-center">
         About Me
       </h1>
-      <div className="h4 about-me">
+      <h3 className="font-weight-bold mt-5">My story...</h3>
+      <div className="h4 text">
         <p>
         Life is full of surprises; no wonder it is like a box
         of chocolates. My path and destination to becoming
@@ -24,7 +25,7 @@ export default function About(props){
         </p>
         <p>
         Through LearningFuze's full immersion coding bootcamp, I started
-        my path the software industry where problem solving, creativity,
+        my path into the software industry where problem solving, creativity,
         innovation, development, improvement, and the desire to
         learn new things are some of the key attributes of
         becoming a great engineer. Since I love to figure things
@@ -35,6 +36,19 @@ export default function About(props){
         Node, etc. and I am open to any opportunities, eager to
         apply my skills and learn new things.
         </p>
+      </div>
+      <h3 className="font-weight-bold mt-5">Some of my interests (other than coding)...</h3>
+      <div className="h4 text">
+        <ul>
+          <li>Nature, especially the mountains; a nice break from the world</li>
+          <li>Cooking from scratch; going to the grocery store and bringing items together to put in my mouth</li>
+          <li>Reading the Nutrition Facts label; the more you know, the more you don't want put that stuff in your body</li>
+          <li>Working out; I made an app for it, check it out <a href="https://ppalll.herokuapp.com/" target="_blank" className="text-decoration-none">here!</a> (shameless plug)</li>
+          <li>Memes; the danker the better</li>
+          <li>Minimalism; you really don't need much in life</li>
+          <li>Good design; whether that be websites, apps, logos, icons, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
+          <li>Semicolons;</li>
+        </ul>
       </div>
     </div>
   )
