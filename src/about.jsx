@@ -7,7 +7,7 @@ export default function About(props){
         About Me
       </h1>
       <h3 className="font-weight-bold mt-5">My story...</h3>
-      <div className="h4 text">
+      <h4 className="text">
         <p>
         Life is full of surprises; no wonder it is like a box
         of chocolates. My path and destination to becoming
@@ -36,9 +36,9 @@ export default function About(props){
         Node, etc. and I am open to any opportunities, eager to
         apply my skills and learn new things.
         </p>
-      </div>
+      </h4>
       <h3 className="font-weight-bold mt-5">Some of my interests (other than coding)...</h3>
-      <div className="h4 text">
+      <h4 className="text">
         <ul>
           <li>God; the one and only</li>
           <li>Nature, especially the mountains; a nice break from the world</li>
@@ -50,10 +50,10 @@ export default function About(props){
           <li>Minimalism; you really don't need that much in life</li>
           <li>Films; LOTR, Star Wars, Breaking Bad, The Dark Knight, Catch Me If You Can, Pulp Fiction, Forrest Gump, The Pursuit of Happyness, to name a few...</li>
           <li>Intellectual, inspirational, motivational, and thought provoking quotes; also made an app that generates random quotes and other stuff, check it out <a href="https://daniel-sungwon-lee.github.io/ajax-project/" target="_blank" className="text-decoration-none">here!</a> (sorry I'll stop)</li>
-          <li>Memes; the danker the better</li>
+          <li>Memes; from <a href="https://www.reddit.com/" target="_blank" className="fab fa-reddit text-decoration-none" style={{color: "#FF4301"}}></a></li>
           <li>Semicolons; in English, not so much in JavaScript</li>
         </ul>
-      </div>
+      </h4>
     </div>
   )
 }
