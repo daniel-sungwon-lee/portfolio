@@ -21,13 +21,27 @@ html{
 
 /*home section*/
 .home{
-  margin: 8rem auto;
+  margin: 7rem auto 0;
   height: 100vh;
 }
 
 /*about section*/
 .about{
-  margin-bottom: 9rem;
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+}
+.about-me{
+  border: solid 4px black;
+  border-radius: 10px;
+}
+.about-me-inner{
+  padding: 3rem;
+  border: solid 4px black;
+  border-radius: 10px;
+  position: relative;
+  top: -10px;
+  left: 8px;
+  background: white;
 }
 .text{
   line-height: 1.5;

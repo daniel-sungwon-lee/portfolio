@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
   .home{
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
   h1 {
     font-size: 2rem;
@@ -12,6 +12,15 @@
     font-size: 1.25rem;
   }
   .about{
-    padding: 0 3rem;
+    padding: 7rem 2rem 9rem;
+  }
+  .about-me{
+    height: 600px;
+  }
+  .about-me-inner{
+    height: 600px;
+    overflow: auto;
+    top: -16px;
+    padding: 2rem;
   }
 }
