@@ -44,9 +44,11 @@ export default function About(props){
           <li>Cooking from scratch; going to the grocery store and bringing items together to put in my mouth</li>
           <li>Reading the Nutrition Facts label; the more you know, the more you don't want put that stuff in your body</li>
           <li>Working out; I made an app for it, check it out <a href="https://ppalll.herokuapp.com/" target="_blank" className="text-decoration-none">here!</a> (shameless plug)</li>
+          <li>Investing; making money is one thing, but knowing how to use it is another</li>
+          <li>Good design; whether that be websites, apps, logos, icons, cars, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
+          <li>Minimalism; you really don't need that much in life</li>
+          <li>Films; LOTR, Star Wars, Breaking Bad, The Dark Knight, Catch Me If You Can, Pulp Fiction, Forrest Gump, The Pursuit of Happyness, to name a few...</li>
           <li>Memes; the danker the better</li>
-          <li>Minimalism; you really don't need much in life</li>
-          <li>Good design; whether that be websites, apps, logos, icons, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
           <li>Semicolons;</li>
         </ul>
       </div>
