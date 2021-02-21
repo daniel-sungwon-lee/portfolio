@@ -1,14 +1,15 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Daniel's Portfolio",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel Sungwon Lee",
   "license": "ISC",
   "dependencies": {
     "hamburger-react": "^2.4.0",
