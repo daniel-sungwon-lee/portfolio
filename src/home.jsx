@@ -9,15 +9,18 @@ export default function Home(props) {
           options={
             {
               strings:[
-                `Hello there!`
+                `Hello, World <i class="fas fa-terminal"></i> <i class="fas fa-exclamation"></i>`,
+                `Hello there!`,
+                `Welcome!`,
+                `안녕하세요!`
               ],
               autoStart:true,
               pauseFor: 3000,
-              deleteSpeed: 0,
               loop: true
             }
           }
         />
+        <br/>
         <TypeWriter
           onInit={
             typewriter =>{
