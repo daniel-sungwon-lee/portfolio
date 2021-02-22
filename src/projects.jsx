@@ -12,7 +12,7 @@ export default function Projects(props) {
         <div className="cards-div d-flex justify-content-around align-items-center mt-5">
           <FlipCard
             front ={
-              <div className="card" onClick={()=>setFlip(true)}>
+              <div className="card ppal-card" onClick={()=>setFlip(true)}>
                 <img src="images/picon.png" className="card-img-top" alt="PPAL logo" />
                 <div className="card-body">
                   <h4 className="card-title">PPAL</h4>
@@ -26,7 +26,7 @@ export default function Projects(props) {
               </div>
             }
             back ={
-              <div className="card" onClick={()=>setFlip(false)}>
+              <div className="card ppal-card" onClick={()=>setFlip(false)}>
                 <div className="card-body">
                   <h4 className="card-title text-center">Technologies Used:</h4>
                   <div className="h5 card-text d-flex justify-content-around flex-wrap">
