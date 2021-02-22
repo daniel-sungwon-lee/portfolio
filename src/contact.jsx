@@ -15,9 +15,14 @@ export default function Contact(props) {
             <i className="fab fa-github"></i>
           </a>
         </div>
-        <div className="contact-logo gmail">
+        <div className="contact-logo img">
           <a href="mailto:danlee333@gmail.com">
             <img src="icons-colored/gmail.svg" width="100"/>
+          </a>
+        </div>
+        <div className="contact-logo img">
+          <a href="tel:+17143972193">
+            <img src="gifs/phone.gif" width="100" />
           </a>
         </div>
       </div>
