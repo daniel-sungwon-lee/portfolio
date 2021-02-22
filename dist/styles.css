@@ -73,3 +73,15 @@ html{
   width: 81%;
   margin: 24px auto 7px;
 }
+
+/*skills section*/
+.skills{
+  min-height: 100vh;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.skills-icon{
+  width: calc(100%/3);
+  text-align: center;
+  padding: 2.5rem 0;
+}
