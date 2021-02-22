@@ -3,6 +3,7 @@ import FlipCard from 'react-png-flipcard';
 
 export default function Projects(props) {
   const [flip, setFlip] =useState(false)
+  const [flip2, setFlip2] = useState(false)
 
   return (
     <div className="container projects" id="projects">
@@ -51,7 +52,7 @@ export default function Projects(props) {
           />
           <FlipCard
             front={
-              <div className="card rando-card" onClick={() => setFlip(true)}>
+              <div className="card rando-card" onClick={() => setFlip2(true)}>
                 <img src="images/rando.png" className="card-img-top rando" alt="RANDO logo" />
                 <div className="card-body">
                   <h4 className="card-title">RANDO</h4>
@@ -64,7 +65,7 @@ export default function Projects(props) {
               </div>
             }
             back={
-              <div className="card rando-card" onClick={() => setFlip(false)}>
+              <div className="card rando-card" onClick={() => setFlip2(false)}>
                 <div className="card-body">
                   <h4 className="card-title text-center">Technologies Used:</h4>
                   <div className="h5 card-text d-flex justify-content-around flex-wrap">
@@ -77,7 +78,7 @@ export default function Projects(props) {
             }
             height={507}
             manual
-            flip={flip}
+            flip={flip2}
           />
         </div>
       </div>
