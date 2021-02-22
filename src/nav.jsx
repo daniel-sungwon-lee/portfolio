@@ -12,9 +12,12 @@ export default function Nav(props) {
     <>
     <div className="collapse overlay" onClick={()=>setOpen(false)} id="navbarToggleExternalContent" data-toggle="collapse" data-target="#navbarToggleExternalContent"></div>
     <div className="fixed-top">
-      <nav className="navbar border-0" style={black}>
+      <nav className="navbar border-0 d-flex justify-content-between" style={black}>
         <div data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <Hamburger toggled={isOpen} toggle={setOpen} rounded easing="ease-out" duration={0.4} direction="right" color="white" />
+        </div>
+        <div>
+          <a href="https://github.com/daniel-sungwon-lee/portfolio" target="_blank" className="text-decoration-none"><i className="text-light fab fa-github"></i></a>
         </div>
       </nav>
       <div className="collapse position-relative border-0" id="navbarToggleExternalContent">
