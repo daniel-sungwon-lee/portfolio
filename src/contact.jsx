@@ -25,6 +25,11 @@ export default function Contact(props) {
             <img src="gifs/phone.gif" width="100" />
           </a>
         </div>
+        <div className="contact-logo img">
+          <a href="https://drive.google.com/file/d/13mW-IZNHjSBdNhVGxFxEF2sRcM6oR4jK/view?usp=sharing" target="_blank">
+            <img src="icons-colored/resume.svg" width="100" />
+          </a>
+        </div>
       </div>
     </div>
   )
