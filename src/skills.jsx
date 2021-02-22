@@ -5,7 +5,7 @@ export default function Skills(props) {
     <div className="container" id="skills">
       <div className="d-flex justify-content-around align-items-center">
         <div className="skills-icon">
-          <i class="fab fa-js-square"></i>
+          <img width="100" src="icons-colored/javascript.svg"></i>
         </div>
         <div className="skills-icon">
           <i class="fab fa-react"></i>
