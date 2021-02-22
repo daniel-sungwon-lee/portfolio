@@ -25,11 +25,11 @@
     padding: 2rem;
   }
 
+  .projects{
+    padding: 7rem 0;
+  }
   .cards-div{
     flex-direction: column;
-  }
-  .rando-card{
-    margin-top: 3rem;
   }
 
   .skills{
