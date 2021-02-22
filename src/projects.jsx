@@ -5,6 +5,7 @@ export default function Projects(props) {
   const [flip, setFlip] =useState(false)
   const [flip2, setFlip2] = useState(false)
   const [flip3, setFlip3] = useState(false)
+  const [flip4, setFlip4] = useState(false)
 
   return (
     <div className="container projects" id="projects">
@@ -14,7 +15,7 @@ export default function Projects(props) {
           <div className="card-div">
             <FlipCard
               front ={
-                <div className="card ppal-card" onClick={()=>setFlip(true)}>
+                <div className="card" onClick={()=>setFlip(true)}>
                   <img src="images/picon.png" className="card-img-top" alt="PPAL logo" />
                   <div className="card-body">
                     <h4 className="card-title">PPAL</h4>
@@ -28,7 +29,7 @@ export default function Projects(props) {
                 </div>
               }
               back ={
-                <div className="card ppal-card" onClick={()=>setFlip(false)}>
+                <div className="card" onClick={()=>setFlip(false)}>
                   <div className="card-body">
                     <h4 className="card-title text-center">Technologies Used:</h4>
                     <div className="h5 card-text d-flex justify-content-around flex-wrap">
@@ -56,7 +57,7 @@ export default function Projects(props) {
           <div className="card-div">
             <FlipCard
               front={
-                <div className="card rando-card" onClick={() => setFlip2(true)}>
+                <div className="card" onClick={() => setFlip2(true)}>
                   <img src="images/rando.png" className="card-img-top" alt="RANDO logo" />
                   <div className="card-body">
                     <h4 className="card-title">RANDO</h4>
@@ -101,7 +102,7 @@ export default function Projects(props) {
                 </div>
               }
               back={
-                <div className="card journal-card" onClick={() => setFlip3(false)}>
+                <div className="card" onClick={() => setFlip3(false)}>
                   <div className="card-body">
                     <h4 className="card-title text-center">Technologies Used:</h4>
                     <div className="h5 card-text d-flex justify-content-around flex-wrap">
@@ -115,6 +116,38 @@ export default function Projects(props) {
               height={507}
               manual
               flip={flip3}
+            />
+          </div>
+          <div className="card-div">
+            <FlipCard
+              front={
+                <div className="card" onClick={() => setFlip4(true)}>
+                  <img src="images/f1.png" className="card-img-top" alt="Driving Game logo" />
+                  <div className="card-body">
+                    <h4 className="card-title">Driving Game</h4>
+                    <p className="card-text h5">A simple, fun JavaScript driving game</p>
+                    <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
+                      <a href="https://daniel-sungwon-lee.github.io/driving-game/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                      <a href="https://github.com/daniel-sungwon-lee/driving-game" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              }
+              back={
+                <div className="card" onClick={() => setFlip4(false)}>
+                  <div className="card-body">
+                    <h4 className="card-title text-center">Technologies Used:</h4>
+                    <div className="h5 card-text d-flex justify-content-around flex-wrap">
+                      <div className="logo-div"><i className="fab fa-js-square"></i></div>
+                      <div className="logo-div"><i className="fab fa-css3-alt"></i></div>
+                      <div className="logo-div"><i className="fab fa-html5"></i></div>
+                    </div>
+                  </div>
+                </div>
+              }
+              height={507}
+              manual
+              flip={flip4}
             />
           </div>
         </div>
