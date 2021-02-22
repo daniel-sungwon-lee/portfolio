@@ -46,3 +46,8 @@ html{
 .text{
   line-height: 1.5;
 }
+
+/*projects section*/
+.logo-div{
+  width: calc(100%/3);
+}
