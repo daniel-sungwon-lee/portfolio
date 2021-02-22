@@ -125,7 +125,7 @@ export default function Projects(props) {
                   <img src="images/f1.png" className="card-img-top" alt="Driving Game logo" />
                   <div className="card-body">
                     <h4 className="card-title">Driving Game</h4>
-                    <p className="card-text h5">A simple, fun JavaScript driving game</p>
+                    <p className="card-text h5">A simple, fun, JavaScript driving game</p>
                     <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
                       <a href="https://daniel-sungwon-lee.github.io/driving-game/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                       <a href="https://github.com/daniel-sungwon-lee/driving-game" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
