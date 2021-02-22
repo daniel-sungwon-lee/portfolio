@@ -11,6 +11,7 @@
   h4{
     font-size: 1.25rem;
   }
+
   .about{
     padding: 7rem 2rem 5rem;
   }
@@ -23,16 +24,22 @@
     top: -16px;
     padding: 2rem;
   }
+
   .cards-div{
     flex-direction: column;
   }
   .rando-card{
     margin-top: 3rem;
   }
+
   .skills{
     padding: 7rem 2rem;
   }
   .skills-icon{
     width: 50%;
+  }
+
+  .contact{
+    padding: 7rem 2rem;
   }
 }

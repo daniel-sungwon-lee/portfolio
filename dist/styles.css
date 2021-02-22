@@ -88,3 +88,16 @@ html{
 img{
   max-width: 100%;
 }
+
+/*contact section*/
+.contact{
+  min-height: 100vh;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.contact-logo{
+  font-size: 86px;
+}
+.contact-logo.gmail{
+  font-size: initial;
+}
