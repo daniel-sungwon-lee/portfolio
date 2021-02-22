@@ -4,7 +4,7 @@ export default function Contact(props) {
   return (
     <div className="container contact" id="contact">
       <h1 className="text-center">Contact</h1>
-      <div className="mt-5 d-flex justify-content-around align-items-center">
+      <div className="mt-5 d-flex flex-wrap justify-content-around align-items-center">
         <div className="contact-logo">
           <a href="https://www.linkedin.com/in/daniel-sungwon-lee/" target="_blank" className="text-decoration-none" style={{color: "#0077B5"}}>
             <i className="fab fa-linkedin"></i>

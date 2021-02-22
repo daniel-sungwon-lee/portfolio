@@ -105,6 +105,9 @@ img{
 }
 .contact-logo{
   font-size: 86px;
+  width: calc(100%/3);
+  text-align: center;
+  padding: 2.5rem 0;
 }
 .contact-logo.gmail{
   font-size: initial;

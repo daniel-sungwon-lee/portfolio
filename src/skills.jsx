@@ -24,7 +24,7 @@ export default function Skills(props) {
           <a href="https://nodejs.org/en/" target="_blank"><img width="163.3" src="icons-colored/node.svg"/></a>
         </div>
         <div className="skills-icon">
-          <a href="https://expressjs.com/" target="_blank"><img width="180" src="icons-colored/express.svg"/></a>
+          <a href="https://expressjs.com/" target="_blank"><img width="152" src="icons-colored/express.svg"/></a>
         </div>
         <div className="skills-icon">
           <a href="https://www.postgresql.org/" target="_blank"><img width="97.03" src="icons-colored/postgresql.svg"/></a>
@@ -64,6 +64,9 @@ export default function Skills(props) {
         </div>
         <div className="skills-icon">
           <a href="https://slack.com/" target="_blank"><img width="99.82" src="icons-colored/slack.svg"/></a>
+        </div>
+        <div className="skills-icon">
+          <a href="https://www.shopify.com/" target="_blank"><img width="87.96" src="icons-colored/shopify.svg" /></a>
         </div>
       </div>
     </div>

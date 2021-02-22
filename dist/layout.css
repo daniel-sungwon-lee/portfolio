@@ -42,4 +42,7 @@
   .contact{
     padding: 7rem 2rem;
   }
+  .contact-logo{
+    width: 50%;
+  }
 }
