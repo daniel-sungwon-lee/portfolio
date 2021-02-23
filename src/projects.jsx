@@ -90,10 +90,10 @@ export default function Projects(props) {
             <FlipCard
               front={
                 <div className="card" onClick={() => setFlip3(true)}>
-                  <img src="images/journal.png" className="card-img-top" alt="Journl logo" />
+                  <img src="images/swe.png" className="card-img-top" alt="SWE logo" />
                   <div className="card-body">
-                    <h4 className="card-title">Journl</h4>
-                    <p className="card-text h5">A journal application that captures notes</p>
+                    <h4 className="card-title">SWE</h4>
+                    <p className="card-text h5">A journal application for anything Star Wars</p>
                     <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
                       <a href="https://daniel-sungwon-lee.github.io/code-journal/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                       <a href="https://github.com/daniel-sungwon-lee/code-journal" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
