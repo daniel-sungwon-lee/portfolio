@@ -90,9 +90,9 @@ export default function Projects(props) {
             <FlipCard
               front={
                 <div className="card" onClick={() => setFlip3(true)}>
-                  <img src="images/journal.png" className="card-img-top" alt="Code Journal logo" />
+                  <img src="images/journal.png" className="card-img-top" alt="Journl logo" />
                   <div className="card-body">
-                    <h4 className="card-title">Code Journal</h4>
+                    <h4 className="card-title">Journl</h4>
                     <p className="card-text h5">A journal application that captures notes</p>
                     <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
                       <a href="https://daniel-sungwon-lee.github.io/code-journal/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
@@ -122,10 +122,10 @@ export default function Projects(props) {
             <FlipCard
               front={
                 <div className="card" onClick={() => setFlip4(true)}>
-                  <img src="images/f1.png" className="card-img-top" alt="Driving Game logo" />
+                  <img src="images/f1.png" className="card-img-top" alt="Drive logo" />
                   <div className="card-body">
-                    <h4 className="card-title">Driving Game</h4>
-                    <p className="card-text h5">A simple, fun, JavaScript driving game</p>
+                    <h4 className="card-title">Drive</h4>
+                    <p className="card-text h5">A simple, fun, dynamic driving game</p>
                     <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
                       <a href="https://daniel-sungwon-lee.github.io/driving-game/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                       <a href="https://github.com/daniel-sungwon-lee/driving-game" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
