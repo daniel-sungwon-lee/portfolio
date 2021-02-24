@@ -16,7 +16,7 @@ export default function Projects(props) {
             <FlipCard
               front ={
                 <div className="card" onClick={()=>setFlip(true)}>
-                  <img src="images/picon.png" className="card-img-top" alt="PPAL logo" />
+                  <img src="icons-colored/ppal.svg" className="card-img-top" alt="PPAL logo" />
                   <div className="card-body">
                     <h4 className="card-title">PPAL</h4>
                     <p className="card-text h5">A web application that helps plan workout routines</p>
@@ -90,7 +90,7 @@ export default function Projects(props) {
             <FlipCard
               front={
                 <div className="card" onClick={() => setFlip3(true)}>
-                  <img src="images/swe.png" className="card-img-top" alt="SWE logo" />
+                  <img src="icons-colored/swe.svg" className="card-img-top" alt="SWE logo" />
                   <div className="card-body">
                     <h4 className="card-title">SWE</h4>
                     <p className="card-text h5">A journal application for anything Star Wars</p>
@@ -122,7 +122,7 @@ export default function Projects(props) {
             <FlipCard
               front={
                 <div className="card" onClick={() => setFlip4(true)}>
-                  <img src="images/f1.png" className="card-img-top" alt="Drive logo" />
+                  <img src="icons-colored/f1.svg" className="card-img-top" alt="Drive logo" />
                   <div className="card-body">
                     <h4 className="card-title">Drive</h4>
                     <p className="card-text h5">A simple, fun, dynamic driving game</p>
