@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FlipCard from 'react-png-flipcard';
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 export default function Projects(props) {
   const [flip, setFlip] =useState(false)
@@ -12,8 +12,8 @@ export default function Projects(props) {
     <div className="container projects" id="projects">
       <div>
         <h1 className="text-center">Projects</h1>
-        <Slide bottom>
-          <div className="cards-div d-flex flex-wrap justify-content-around align-items-center mt-5">
+        <div className="cards-div d-flex flex-wrap justify-content-around align-items-center mt-5">
+          <Fade bottom>
             <div className="card-div">
               <FlipCard
                 front ={
@@ -56,6 +56,8 @@ export default function Projects(props) {
                 flip={flip}
               />
             </div>
+          </Fade>
+          <Fade bottom>
             <div className="card-div">
               <FlipCard
                 front={
@@ -88,6 +90,8 @@ export default function Projects(props) {
                 flip={flip2}
               />
             </div>
+          </Fade>
+          <Fade bottom>
             <div className="card-div">
               <FlipCard
                 front={
@@ -120,6 +124,8 @@ export default function Projects(props) {
                 flip={flip3}
               />
             </div>
+          </Fade>
+          <Fade bottom>
             <div className="card-div">
               <FlipCard
                 front={
@@ -152,8 +158,8 @@ export default function Projects(props) {
                 flip={flip4}
               />
             </div>
-          </div>
-        </Slide>
+          </Fade>
+        </div>
       </div>
     </div>
   )

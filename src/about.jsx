@@ -1,10 +1,10 @@
 import React from 'react'
-import Pulse from 'react-reveal/Pulse';
+import Zoom from 'react-reveal/Zoom';
 
 export default function About(props){
   return (
     <div className="container about" id="about">
-      <Pulse>
+      <Zoom>
         <div className="about-me">
           <div className="about-me-inner">
             <h1 className="text-center">
@@ -58,7 +58,7 @@ export default function About(props){
             </h4>
           </div>
         </div>
-      </Pulse>
+      </Zoom>
     </div>
   )
 }
