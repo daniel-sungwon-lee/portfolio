@@ -55,7 +55,7 @@ export default function About(props){
                 <li>Photography; it captures a small, tangible moment and memory in life</li>
                 <li>Intellectual, inspirational, motivational, and thought provoking quotes; I also made an app that generates random quotes and other stuff, check it out <a href="https://daniel-sungwon-lee.github.io/ajax-project/" target="_blank" className="text-decoration-none">here!</a> (sorry I'll stop)</li>
                 <li>Memes; I get them mainly from <a href="https://www.reddit.com/" target="_blank" className="fab fa-reddit text-decoration-none" style={{color: "#FF4301"}}></a></li>
-                <li>Semicolons (if you haven't realized by now); I like them in English, not so much in JavaScript (as you can tell by looking at some of my code)</li>
+                <li>Semicolons (if you haven't realized by now); I like them in English, not so much in JavaScript (as you can tell by looking at some of my <a href="https://github.com/daniel-sungwon-lee?tab=repositories" target="blank" className="text-decoration-none">code</a>)</li>
               </ul>
             </h4>
           </div>
