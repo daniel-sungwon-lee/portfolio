@@ -17,7 +17,9 @@ export default function Nav(props) {
           <Hamburger toggled={isOpen} toggle={setOpen} rounded easing="ease-out" duration={0.4} direction="right" color="white" />
         </div>
         <div>
-          <h1 className="text-white m-0">Daniel Lee</h1>
+          <a href="#" className="text-decoration-none">
+            <h1 className="text-white m-0">Daniel Lee</h1>
+          </a>
         </div>
         <div>
           <a href="https://github.com/daniel-sungwon-lee/portfolio" target="_blank" className="text-decoration-none"><i className="text-light fab fa-github"></i></a>
