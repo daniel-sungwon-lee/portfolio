@@ -30,7 +30,8 @@ export default class Page extends React.Component {
           <TypeWriter
             options={
               {
-                strings: [`Made from scratch with <i class="fas fa-heart" style="color: #E81224"></i> using React, npm, webpack, Babel, Bootstrap, and Netlify`],
+                strings: [`Made from scratch with <i class="fas fa-heart" style="color: #E81224"></i> by Daniel`],
+                pauseFor: 5000,
                 autoStart: true,
                 deleteSpeed: 3,
                 loop: true
