@@ -10,38 +10,40 @@ export default function Home(props) {
             typewriter => {
               typewriter
                 .typeString(`Hello, World <i class="fas fa-terminal"></i>`)
-                .pauseFor(3000)
-                .deleteAll()
+                .pauseFor(2000)
+                .deleteAll(30)
                 .typeString(`I'm Daniel`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteChars(6)
                 .typeString(`a web developer`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteChars(13)
                 .typeString(`software engineer`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteChars(17)
                 .typeString(`programmer`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteChars(10)
                 .typeString(`problem solver`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteChars(14)
                 .typeString(`thinker`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteChars(8)
                 .typeString(`n <a href="https://www.16personalities.com/intj-personality" target="_blank" style="text-decoration: none">INTJ</a>`)
-                .pauseFor(5000)
+                .pauseFor(3000)
                 .deleteChars(6)
                 .typeString(`lways learning`)
-                .pauseFor(3000)
+                .pauseFor(2000)
                 .deleteAll()
                 .start()
             }
           }
           options={
             {
-              loop: true
+              loop: true,
+              delay: 60,
+              deleteSpeed: 30
             }
           }
         />
@@ -61,14 +63,12 @@ export default function Home(props) {
               .typeString(`<br> <br>`)
               .typeString(`daniel <br>`)
               .pasteString(`<i>Person {fullName: "Daniel Sungwon Lee", role: "Developer"}</i>`)
-              .pauseFor(5000)
-              .deleteAll(3)
               .start()
             }
           }
           options={
             {
-              loop:true
+              delay: 60
             }
           }
           />
