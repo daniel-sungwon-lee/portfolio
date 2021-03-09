@@ -56,7 +56,9 @@ export default function Home(props) {
               .pauseFor(333)
               .typeString(`<br> <br>`)
               .typeString(`daniel <br>`)
-              .pasteString(`<i>Person {fullName: <i style="color: #fd971f">"Daniel Sungwon Lee"</i>, role: <i style="color: #fd971f">"Developer"</i>}</i>`)
+              .pasteString(`<i>Person {fullName: "Daniel Sungwon Lee", role: "Developer"}</i> <br>`)
+              .pauseFor(3000)
+              .typeString(`<br> <span style="color: #fd971f">"Scroll down for more!"</span>`)
               .start()
             }
           }
