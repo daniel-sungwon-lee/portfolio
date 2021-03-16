@@ -27,7 +27,7 @@ export default function Projects(props) {
                       <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
                         <a href="https://lightblbb.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/LightBlb" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
-                        <a href="" className="text-decoration-none" style={{ color: "#FF0000" }} target="_blank"><i className="fab fa-youtube"></i></a>
+                        <a href="https://youtu.be/Gv7qISqOR9Q" className="text-decoration-none" style={{ color: "#FF0000" }} target="_blank"><i className="fab fa-youtube"></i></a>
                       </div>
                     </div>
                   </div>
