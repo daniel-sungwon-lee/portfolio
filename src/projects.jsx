@@ -109,7 +109,7 @@ export default function Projects(props) {
                     <img src="icons-colored/ppal.svg" className="card-img-top" alt="PPAL logo" />
                     <div className="card-body">
                       <h4 className="card-title">PPAL</h4>
-                      <p className="card-text h5">A web application that helps plan workout routines</p>
+                      <p className="card-text h5">A web app that helps plan workout routines</p>
                       <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
                         <a href="https://ppalll.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/PPAL" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>

@@ -48,7 +48,7 @@ export default function About(props){
                 <li>Cooking from scratch; I enjoy going to the grocery store and bringing items together to put in my mouth</li>
                 <li>Reading the Nutrition Facts label; the more you know, the less you feel like eating that processed "food" you're holding</li>
                 <li>Working out; I made an app for it, check it out <a href="https://ppalll.herokuapp.com/" target="_blank" className="text-decoration-none">here!</a> (shameless plug)</li>
-                <li>Investing; money is a tool, having it is one thing but knowing how to use it is another&mdash;I also like tendies</li>
+                <li>Investing; money is a tool, having it is one thing but knowing how to use it is another</li>
                 <li>Good, clean, minimalist/modern design; whether that be websites, apps, logos, icons, houses, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
                 <li>Minimalism; you really don't need that much in life</li>
                 <li>Films/music; I enjoy and appreciate the fine arts</li>

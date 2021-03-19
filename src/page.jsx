@@ -31,10 +31,11 @@ export default class Page extends React.Component {
             options={
               {
                 strings: [`Made from scratch with <i class="fas fa-heart" style="color: #E81224"></i> by Daniel`],
-                pauseFor: 5000,
                 autoStart: true,
-                deleteSpeed: 3,
-                loop: true
+                delay: 60,
+                pauseFor: 5000,
+                loop: true,
+                deleteSpeed: 3
               }
             }
             />
