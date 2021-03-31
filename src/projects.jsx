@@ -9,6 +9,7 @@ export default function Projects(props) {
   const [flip4, setFlip4] = useState(false)
   const [flip5, setFlip5] = useState(false)
   const [flip6, setFlip6] = useState(false)
+  const [flip7, setFlip7] = useState(false)
 
   return (
     <div className="container projects" id="projects">
@@ -142,6 +143,49 @@ export default function Projects(props) {
                 height={507}
                 manual
                 flip={flip}
+              />
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="card-div">
+              <FlipCard
+                front={
+                  <div className="card" onClick={() => setFlip7(true)}>
+                    <img src="icons-colored/dopetox.svg" className="card-img-top" alt="Dopetox logo" />
+                    <div className="card-body">
+                      <h4 className="card-title">Dopetox</h4>
+                      <p className="card-text h5">A dopamine detox web app</p>
+                      <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
+                        <a href="https://dopetox.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/daniel-sungwon-lee/Dopetox" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                }
+                back={
+                  <div className="card" onClick={() => setFlip7(false)}>
+                    <div className="card-body">
+                      <h4 className="card-title text-center">Technologies Used:</h4>
+                      <div className="h5 card-text d-flex justify-content-around flex-wrap">
+                        <div className="logo-div"><i className="fab fa-react"></i></div>
+                        <div className="logo-div"><img src="icons/redux.svg" width="54" className="redux-img" /></div>
+                        <div className="logo-div"><img src="icons/materialUI.svg" width="54" /></div>
+                        <div className="logo-div"><i className="fab fa-npm"></i></div>
+                        <div className="logo-div"><i className="fab fa-js-square"></i></div>
+                        <div className="logo-div"><i className="fab fa-bootstrap"></i></div>
+                        <div className="logo-div"><i className="fab fa-css3-alt"></i></div>
+                        <div className="logo-div"><i className="fab fa-html5"></i></div>
+                        <div className="logo-div"><i className="fab fa-node"></i></div>
+                        <div className="logo-div"><img src="icons/express.svg" width="54" /></div>
+                        <div className="logo-div"><img src="icons/postgresql.svg" width="49" /></div>
+                        <div className="logo-div"><img src="icons/heroku.svg" width="54" /></div>
+                      </div>
+                    </div>
+                  </div>
+                }
+                height={507}
+                manual
+                flip={flip7}
               />
             </div>
           </Fade>
