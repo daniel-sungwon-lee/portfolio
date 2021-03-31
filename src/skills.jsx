@@ -38,6 +38,9 @@ export default function Skills(props) {
             <a href="https://www.npmjs.com/" target="_blank"><img width="152" src="icons-colored/npm.svg"/></a>
           </div>
           <div className="skills-icon">
+            <a href="https://redux.js.org/" target="_blank"><img width="100" src="icons-colored/redux.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://webpack.js.org/" target="_blank"><img width="100" src="icons-colored/webpack.svg"/></a>
           </div>
           <div className="skills-icon">
