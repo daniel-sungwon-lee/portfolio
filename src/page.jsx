@@ -6,6 +6,37 @@ import Projects from './projects';
 import Skills from './skills';
 import Contact from './contact';
 import TypeWriter from 'typewriter-effect';
+import { Zoom, Fab, useScrollTrigger } from '@material-ui/core';
+import { KeyboardArrowUpRounded } from '@material-ui/icons';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  fab: {
+    position: "fixed",
+    bottom: "1rem",
+    right: "1rem"
+  }
+})
+
+function ScrollTop(props) {
+  const { children, window } = props;
+  const classes = useStyles();
+
+  const trigger = useScrollTrigger({
+    target: window ? window() : undefined,
+    disableHysteresis: true,
+    threshold: 100,
+  });
+
+  return (
+    <Zoom in={trigger}>
+      <div role="presentation" className={classes.fab}>
+        {children}
+      </div>
+    </Zoom>
+  );
+}
+
 
 export default class Page extends React.Component {
   constructor(props) {
@@ -40,6 +71,13 @@ export default class Page extends React.Component {
             }
             />
         </footer>
+        <ScrollTop {...this.props}>
+          <a href="#">
+            <Fab color="secondary">
+              <KeyboardArrowUpRounded fontSize="large" />
+            </Fab>
+          </a>
+        </ScrollTop>
       </>
     )
   }
