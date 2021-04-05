@@ -32,6 +32,11 @@ export default function Contact(props) {
               <img src="icons-colored/resume.svg" width="100" />
             </a>
           </div>
+          <div className="contact-logo img">
+            <a href="https://careerkarma.com/profile/cklfoslqxil7e0891ev469cc7/" target="_blank">
+              <img src="images/careerkarma.png" width="100" />
+            </a>
+          </div>
         </div>
       </Bounce>
     </div>
