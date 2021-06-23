@@ -11,6 +11,7 @@ export default function Projects(props) {
   const [flip6, setFlip6] = useState(false)
   const [flip7, setFlip7] = useState(false)
   const [flip8, setFlip8] = useState(false)
+  const [flip9, setFlip9] = useState(false)
 
   return (
     <div className="container projects" id="projects">
@@ -56,6 +57,45 @@ export default function Projects(props) {
                 height={507}
                 manual
                 flip={flip8}
+              />
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="card-div">
+              <FlipCard
+                front={
+                  <div className="card" onClick={() => setFlip9(true)}>
+                    <img src="icons-colored/choice.svg" className="card-img-top" alt="This or That logo" />
+                    <div className="card-body">
+                      <h4 className="card-title">This or That</h4>
+                      <p className="card-text h5">Helps you choose and quickly make a decision</p>
+                      <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
+                        <a href="https://thisorthattt.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/daniel-sungwon-lee/thisorthat" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                }
+                back={
+                  <div className="card" onClick={() => setFlip9(false)}>
+                    <div className="card-body">
+                      <h4 className="card-title text-center">Technologies Used:</h4>
+                      <div className="h5 card-text d-flex justify-content-around flex-wrap">
+                        <div className="logo-div"><i className="fab fa-react"></i></div>
+                        <div className="logo-div"><img src="icons/materialUI.svg" width="54" /></div>
+                        <div className="logo-div"><i className="fab fa-npm"></i></div>
+                        <div className="logo-div"><i className="fab fa-js-square"></i></div>
+                        <div className="logo-div"><i className="fab fa-bootstrap"></i></div>
+                        <div className="logo-div"><i className="fab fa-css3-alt"></i></div>
+                        <div className="logo-div"><i className="fab fa-html5"></i></div>
+                        <div className="logo-div"><img src="icons/netlify.svg" width="54" style={{position: "relative", bottom: "8px"}} /></div>
+                      </div>
+                    </div>
+                  </div>
+                }
+                height={507}
+                manual
+                flip={flip9}
               />
             </div>
           </Fade>
