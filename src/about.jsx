@@ -27,12 +27,13 @@ export default function About(props){
               creative. Plus, it also saved me from accumulating six figure student loans.
               </p>
               <p>
-              Through LearningFuze's full immersion coding bootcamp, I started
+              Through a full immersion coding bootcamp, I started
               my path into the software industry where problem solving, creativity,
               innovation, development, improvement, and the desire to
               learn new things are some of the key attributes of
               becoming a great engineer. Since I love to figure things
-              out and make/build things, making this change felt right.
+              out and make/build things through logic, making this change felt right.
+              Also, software is all around us and makes life much more convenient.
               </p>
               <p>
               My tech stack consists of JavaScript, React, HTML, CSS,
