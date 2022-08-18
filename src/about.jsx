@@ -54,45 +54,19 @@ export default function About(props){
             <h3 className="font-weight-bold mt-5">Some of my interests (other than coding)...</h3>
             <h4 className="text">
               <ul>
-                <Skeleton>
-                  <li>Nature, especially the mountains; it helps me take a nice break from the world</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Cooking from scratch; I enjoy going to the grocery store and bringing items together to put in my mouth</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Reading the Nutrition Facts label; the more you know, the less you feel like eating that processed "food" you're holding</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Working out; I made an app for it, check it out <a href="https://ppalll.herokuapp.com/" target="_blank" className="text-decoration-none">here!</a> (shameless plug)</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Investing; money is a tool, having it is one thing but knowing how to use it is another</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Good, clean, minimalist/modern design; whether that be websites, apps, logos, icons, houses, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Minimalism; you really don't need that much in life</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Films/music; I enjoy and appreciate the fine arts</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Sports; specifically football (soccer) and football, and I follow <a href="https://www.google.com/search?q=FC%20Barcelona" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg" width="30"/></a></li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Photography; it captures a small, tangible moment and memory in life</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Intellectual, inspirational, motivational, and thought provoking quotes; I also made an app that generates random quotes and other stuff, check it out <a href="https://daniel-sungwon-lee.github.io/ajax-project/" target="_blank" className="text-decoration-none">here!</a> (sorry I'll stop)</li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Memes; I get them mainly from <a href="https://www.reddit.com/" target="_blank" className="fab fa-reddit text-decoration-none" style={{color: "#FF4301"}}></a></li>
-                </Skeleton>
-                <Skeleton>
-                  <li>Semicolons (if you haven't realized by now); I like them in English, not so much in JavaScript (as you can tell by looking at some of my <a href="https://github.com/daniel-sungwon-lee?tab=repositories" target="blank" className="text-decoration-none">code</a>)</li>
-                </Skeleton>
+                <li>Nature, especially the mountains; it helps me take a nice break from the world</li>
+                <li>Cooking from scratch; I enjoy going to the grocery store and bringing items together to put in my mouth</li>
+                <li>Reading the Nutrition Facts label; the more you know, the less you feel like eating that processed "food" you're holding</li>
+                <li>Working out; I made an app for it, check it out <a href="https://ppalll.herokuapp.com/" target="_blank" className="text-decoration-none">here!</a> (shameless plug)</li>
+                <li>Investing; money is a tool, having it is one thing but knowing how to use it is another</li>
+                <li>Good, clean, minimalist/modern design; whether that be websites, apps, logos, icons, houses, credit cards, debit cards, etc. (I like collecting credit/debit cards)</li>
+                <li>Minimalism; you really don't need that much in life</li>
+                <li>Films/music; I enjoy and appreciate the fine arts</li>
+                <li>Sports; specifically football (soccer) and football, and I follow <a href="https://www.google.com/search?q=FC%20Barcelona" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg" width="30"/></a></li>
+                <li>Photography; it captures a small, tangible moment and memory in life</li>
+                <li>Intellectual, inspirational, motivational, and thought provoking quotes; I also made an app that generates random quotes and other stuff, check it out <a href="https://daniel-sungwon-lee.github.io/ajax-project/" target="_blank" className="text-decoration-none">here!</a> (sorry I'll stop)</li>
+                <li>Memes; I get them mainly from <a href="https://www.reddit.com/" target="_blank" className="fab fa-reddit text-decoration-none" style={{color: "#FF4301"}}></a></li>
+                <li>Semicolons (if you haven't realized by now); I like them in English, not so much in JavaScript (as you can tell by looking at some of my <a href="https://github.com/daniel-sungwon-lee?tab=repositories" target="blank" className="text-decoration-none">code</a>)</li>
               </ul>
             </h4>
           </div>
