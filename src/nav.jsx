@@ -30,7 +30,7 @@ export default function Nav(props) {
             <a href="#projects" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Projects</h3></a>
             <a href="#skills" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Skills</h3></a>
             <a href="#contact" className="text-decoration-none"><h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">Contact</h3></a>
-            <a href="https://drive.google.com/file/d/1eUHycBYYh7i3KrEvd1beubIMckDCor24/view?usp=sharing" className="text-decoration-none" target="_blank">
+            <a href="https://drive.google.com/file/d/15bjYYhUDaMKPosp0bxhC_7zjuXK-sVNP/view?usp=sharing" className="text-decoration-none" target="_blank">
               <h3 className="nav-links" onClick={() => setOpen(false)} data-toggle="collapse" data-target="#navbarToggleExternalContent">
                 Resume
               </h3>
