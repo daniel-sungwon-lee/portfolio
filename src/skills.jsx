@@ -23,6 +23,9 @@ export default function Skills(props) {
             <a href="https://material-ui.com/" target="_blank"><img width="125.9" src="icons-colored/material.svg"/></a>
           </div>
           <div className="skills-icon">
+            <a href="https://www.php.net/" target="_blank"><img width="125.9" src="images/php.png" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://getbootstrap.com/" target="_blank"><img width="100" src="icons-colored/bootstrap.svg"/></a>
           </div>
           <div className="skills-icon">

@@ -23,7 +23,7 @@ export default function Contact(props) {
             </a>
           </div>
           <div className="contact-logo img">
-            <a href="https://drive.google.com/file/d/1eUHycBYYh7i3KrEvd1beubIMckDCor24/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/15bjYYhUDaMKPosp0bxhC_7zjuXK-sVNP/view?usp=sharing" target="_blank">
               <img src="icons-colored/resume.svg" width="100" />
             </a>
           </div>
