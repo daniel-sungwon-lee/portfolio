@@ -11,6 +11,9 @@ export default function Skills(props) {
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img width="100" src="icons-colored/javascript.svg"/></a>
           </div>
           <div className="skills-icon">
+            <a href="https://nextjs.org/" target="_blank"><img width="100" src="images/next.js.png" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://reactjs.org/" target="_blank"><img width="100" src="icons-colored/react.svg"/></a>
           </div>
           <div className="skills-icon">
@@ -20,7 +23,7 @@ export default function Skills(props) {
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img width="100" src="icons-colored/html.svg"/></a>
           </div>
           <div className="skills-icon">
-            <a href="https://material-ui.com/" target="_blank"><img width="125.9" src="icons-colored/material.svg"/></a>
+            <a href="https://mui.com/" target="_blank"><img width="125.9" src="images/mui-logo.png"/></a>
           </div>
           <div className="skills-icon">
             <a href="https://www.php.net/" target="_blank"><img width="125.9" src="images/php.png" /></a>
@@ -39,6 +42,9 @@ export default function Skills(props) {
           </div>
           <div className="skills-icon">
             <a href="https://www.npmjs.com/" target="_blank"><img width="152" src="icons-colored/npm.svg"/></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://greensock.com/" target="_blank"><img width="152" src="icons-colored/gsap-greensock.svg" /></a>
           </div>
           <div className="skills-icon">
             <a href="https://redux.js.org/" target="_blank"><img width="100" src="icons-colored/redux.svg" /></a>
@@ -65,6 +71,15 @@ export default function Skills(props) {
             <a href="https://www.json.org/" target="_blank"><img width="100" src="icons-colored/json.svg"/></a>
           </div>
           <div className="skills-icon">
+            <a href="https://vercel.com/home" target="_blank"><img width="90" src="icons/vercel-long.svg" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://railway.app/" target="_blank"><img width="90" src="icons/railway.svg" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://www.typescriptlang.org/" target="_blank"><img width="90" src="icons-colored/ts-logo.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://www.heroku.com/" target="_blank"><img width="90" src="icons-colored/heroku.svg"/></a>
           </div>
           <div className="skills-icon">
@@ -72,6 +87,9 @@ export default function Skills(props) {
           </div>
           <div className="skills-icon">
             <a href="https://www.netlify.com/" target="_blank"><img width="100" src="icons-colored/netlify.svg"/></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://plaid.com/" target="_blank"><img width="100" src="icons/plaid.svg" /></a>
           </div>
           <div className="skills-icon">
             <a href="https://slack.com/" target="_blank"><img width="99.82" src="icons-colored/slack.svg"/></a>
