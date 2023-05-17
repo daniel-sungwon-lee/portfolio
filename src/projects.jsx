@@ -72,7 +72,7 @@ export default function Projects(props) {
                       <h4 className="card-title">LightBlb</h4>
                       <p className="card-text h5">A web app where people can share startup ideas</p>
                       <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
-                        <a href="https://lightblbb.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://lightblb.up.railway.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/LightBlb" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
                         <a href="https://youtu.be/Gv7qISqOR9Q" className="text-decoration-none" style={{ color: "#FF0000" }} target="_blank"><i className="fab fa-youtube"></i></a>
                       </div>
@@ -115,7 +115,7 @@ export default function Projects(props) {
                       <h4 className="card-title">Daily</h4>
                       <p className="card-text h5">The daily routine scheduling app</p>
                       <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
-                        <a href="https://dailyyy.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://daily.up.railway.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/daily" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
                       </div>
                     </div>
@@ -196,7 +196,7 @@ export default function Projects(props) {
                       <h4 className="card-title">W5H</h4>
                       <p className="card-text h5">A web app that helps keep track of job applications</p>
                       <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
-                        <a href="https://w5h.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://w5h.up.railway.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/w5h" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
                         <a href="https://youtu.be/dqO3EpFPPvc" className="text-decoration-none" style={{ color: "#FF0000" }} target="_blank"><i className="fab fa-youtube"></i></a>
                       </div>
@@ -283,7 +283,7 @@ export default function Projects(props) {
                       <h4 className="card-title">Dopetox</h4>
                       <p className="card-text h5">A dopamine detox web app</p>
                       <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
-                        <a href="https://dopetox.herokuapp.com/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://dopetox.up.railway.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/Dopetox" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
                       </div>
                     </div>
