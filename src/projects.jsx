@@ -28,7 +28,7 @@ export default function Projects(props) {
                     <div className="card-body">
                       <h4 className="card-title">FinTrack</h4>
                       <p className="card-text h5">The finance tracking app <span className='invisible'>budgeting? feature</span></p>
-                      <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
+                      <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
                         <a href="https://fintrack-beta.vercel.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/fintrack" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
                         <a href="https://youtu.be/pIRV4APBsnI" className="text-decoration-none" style={{ color: "#FF0000" }} target="_blank"><i className="fab fa-youtube"></i></a>
