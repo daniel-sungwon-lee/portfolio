@@ -13,6 +13,7 @@ export default function Projects(props) {
   const [flip8, setFlip8] = useState(false)
   const [flip9, setFlip9] = useState(false)
   const [flip10, setFlip10] = useState(false)
+  const [flip11, setFlip11] = useState(false)
 
   return (
     <div className="container projects" id="projects">
@@ -60,6 +61,46 @@ export default function Projects(props) {
                 height={507}
                 manual
                 flip={flip10}
+              />
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="card-div">
+              <FlipCard
+                front={
+                  <div className="card" onClick={() => setFlip11(true)}>
+                    <img src="images/goals.png" className="card-img-top" alt="Goals logo" />
+                    <div className="card-body">
+                      <h4 className="card-title">Goals</h4>
+                      <p className="card-text h5">A goal without a plan is just a dream; Goals helps you organize your plans to get you closer to achieving your dreams</p>
+                      <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
+                        <a href="https://goalsss.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/daniel-sungwon-lee/goals" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                }
+                back={
+                  <div className="card" onClick={() => setFlip11(false)}>
+                    <div className="card-body">
+                      <h4 className="card-title text-center">Technologies Used:</h4>
+                      <div className="h5 card-text d-flex justify-content-around flex-wrap">
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="images/next.js.png" width="75" /></div>
+                        <div className="logo-div"><i className="fab fa-react"></i></div>
+                        <div className="logo-div"><img src="images/mui-logo.png" width="54" /></div>
+                        <div className="logo-div"><i className="fab fa-npm"></i></div>
+                        <div className="logo-div"><i className="fab fa-js-square"></i></div>
+                        <div className="logo-div"><i className="fab fa-bootstrap"></i></div>
+                        <div className="logo-div"><i className="fab fa-css3-alt"></i></div>
+                        <div className="logo-div"><i className="fab fa-node"></i></div>
+                        <div className="logo-div"><img src="icons-colored/netlify-logo.svg" width="54" style={{ position: "relative", bottom: "8px" }} /></div>
+                      </div>
+                    </div>
+                  </div>
+                }
+                height={507}
+                manual
+                flip={flip11}
               />
             </div>
           </Fade>
@@ -176,7 +217,7 @@ export default function Projects(props) {
                         <div className="logo-div"><i className="fab fa-bootstrap"></i></div>
                         <div className="logo-div"><i className="fab fa-css3-alt"></i></div>
                         <div className="logo-div"><i className="fab fa-html5"></i></div>
-                        <div className="logo-div"><img src="icons/netlify.svg" width="54" style={{position: "relative", bottom: "8px"}} /></div>
+                        <div className="logo-div"><img src="icons-colored/netlify-logo.svg" width="54" style={{position: "relative", bottom: "8px"}} /></div>
                       </div>
                     </div>
                   </div>
