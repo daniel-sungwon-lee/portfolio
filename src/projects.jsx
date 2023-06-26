@@ -72,8 +72,8 @@ export default function Projects(props) {
                     <img src="images/goals.png" className="card-img-top" alt="Goals logo" />
                     <div className="card-body">
                       <h4 className="card-title">Goals</h4>
-                      <p className="card-text h5">A goal without a plan is just a dream; Goals helps you organize your plans to get you closer to achieving your dreams</p>
-                      <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
+                      <p className="card-text h5">Helps track your Goals and organize your plans</p>
+                      <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
                         <a href="https://goalsss.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/goals" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
                       </div>
