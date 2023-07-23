@@ -113,7 +113,7 @@ export default function Projects(props) {
                     <img src="icons-colored/poultry.svg" className="card-img-top" alt="Egg logo" />
                     <div className="card-body">
                       <h4 className="card-title">Egg</h4>
-                      <p className="card-text h5">Chicken and Egg tracker</p>
+                      <p className="card-text h5">Chicken and Egg tracker <span className='invisible'>for you!</span></p>
                       <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
                         <a href="https://eggggg.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                         <a href="https://github.com/daniel-sungwon-lee/egg" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
@@ -122,7 +122,7 @@ export default function Projects(props) {
                   </div>
                 }
                 back={
-                  <div className="card" onClick={() => setFlip11(false)}>
+                  <div className="card" onClick={() => setFlip12(false)}>
                     <div className="card-body">
                       <h4 className="card-title text-center">Technologies Used:</h4>
                       <div className="h5 card-text d-flex justify-content-around flex-wrap">
