@@ -14,6 +14,7 @@ export default function Projects(props) {
   const [flip9, setFlip9] = useState(false)
   const [flip10, setFlip10] = useState(false)
   const [flip11, setFlip11] = useState(false)
+  const [flip12, setFlip12] = useState(false)
 
   return (
     <div className="container projects" id="projects">
@@ -101,6 +102,45 @@ export default function Projects(props) {
                 height={507}
                 manual
                 flip={flip11}
+              />
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="card-div">
+              <FlipCard
+                front={
+                  <div className="card" onClick={() => setFlip12(true)}>
+                    <img src="icons-colored/poultry.svg" className="card-img-top" alt="Egg logo" />
+                    <div className="card-body">
+                      <h4 className="card-title">Egg</h4>
+                      <p className="card-text h5">Chicken and Egg tracker</p>
+                      <div className="d-flex justify-content-around h5 mt-3 mb-0 link-logos">
+                        <a href="https://eggggg.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/daniel-sungwon-lee/egg" className="text-decoration-none text-dark" target="_blank"><i className="fab fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                }
+                back={
+                  <div className="card" onClick={() => setFlip11(false)}>
+                    <div className="card-body">
+                      <h4 className="card-title text-center">Technologies Used:</h4>
+                      <div className="h5 card-text d-flex justify-content-around flex-wrap">
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="images/next.js.png" width="75" /></div>
+                        <div className="logo-div"><i className="fab fa-react"></i></div>
+                        <div className="logo-div"><img src="icons-colored/ant-design-logo.svg" width="54" /></div>
+                        <div className="logo-div"><i className="fab fa-npm"></i></div>
+                        <div className="logo-div"><i className="fab fa-js-square"></i></div>
+                        <div className="logo-div"><i className="fab fa-css3-alt"></i></div>
+                        <div className="logo-div"><i className="fab fa-node"></i></div>
+                        <div className="logo-div"><img src="icons-colored/netlify-logo.svg" width="54" style={{ position: "relative", bottom: "8px" }} /></div>
+                      </div>
+                    </div>
+                  </div>
+                }
+                height={507}
+                manual
+                flip={flip12}
               />
             </div>
           </Fade>
