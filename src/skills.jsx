@@ -17,6 +17,9 @@ export default function Skills(props) {
             <a href="https://reactjs.org/" target="_blank"><img width="100" src="icons-colored/react.svg"/></a>
           </div>
           <div className="skills-icon">
+            <a href="https://expo.dev/" target="_blank"><img width="100" src="icons/expo.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img width="100" src="icons-colored/css.svg"/></a>
           </div>
           <div className="skills-icon">
