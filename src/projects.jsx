@@ -15,12 +15,48 @@ export default function Projects(props) {
   const [flip10, setFlip10] = useState(false)
   const [flip11, setFlip11] = useState(false)
   const [flip12, setFlip12] = useState(false)
+  const [flip13, setFlip13] = useState(false)
 
   return (
     <div className="container projects" id="projects">
       <div>
         <h1 className="text-center">Projects</h1>
         <div className="cards-div d-flex flex-wrap justify-content-around align-items-center mt-5">
+          <Fade bottom>
+            <div className="card-div">
+              <FlipCard
+                front={
+                  <div className="card" onClick={() => setFlip13(true)}>
+                    <img src="icons-colored/chameleon-icon.svg" className="card-img-top" alt="Chameleon logo" />
+                    <div className="card-body">
+                      <h4 className="card-title">Chameleon</h4>
+                      <p className="card-text h5">A fun game for all <span className='invisible'>multiplayer? feature</span></p>
+                      <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
+                        <a href="https://chameeleongame.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                }
+                back={
+                  <div className="card" onClick={() => setFlip10(false)}>
+                    <div className="card-body">
+                      <h4 className="card-title text-center">Technologies Used:</h4>
+                      <div className="h5 card-text d-flex justify-content-around flex-wrap">
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons/expo.svg" width="75" /></div>
+                        <div className="logo-div"><i className="fab fa-react"></i></div>
+                        <div className="logo-div"><i className="fab fa-npm"></i></div>
+                        <div className="logo-div"><i className="fab fa-js-square"></i></div>
+                        <div className="logo-div"><i className="fab fa-node"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                }
+                height={507}
+                manual
+                flip={flip13}
+              />
+            </div>
+          </Fade>
           <Fade bottom>
             <div className="card-div">
               <FlipCard
