@@ -38,11 +38,11 @@ export default function Projects(props) {
                   </div>
                 }
                 back={
-                  <div className="card" onClick={() => setFlip10(false)}>
+                  <div className="card" onClick={() => setFlip13(false)}>
                     <div className="card-body">
                       <h4 className="card-title text-center">Technologies Used:</h4>
                       <div className="h5 card-text d-flex justify-content-around flex-wrap">
-                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons/expo.svg" width="75" /></div>
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons/expo.svg" width="50" /></div>
                         <div className="logo-div"><i className="fab fa-react"></i></div>
                         <div className="logo-div"><i className="fab fa-npm"></i></div>
                         <div className="logo-div"><i className="fab fa-js-square"></i></div>
