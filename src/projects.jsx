@@ -31,7 +31,7 @@ export default function Projects(props) {
                     <div className="card-body">
                       <h4 className="card-title">Chameleon</h4>
                       <p className="card-text h5">A fun game for all <span className='invisible'>multiplayer? feature</span></p>
-                      <div className="d-flex justify-content-between h5 mt-3 mb-0 link-logos">
+                      <div className="d-flex justify-content-center h5 mt-3 mb-0 link-logos">
                         <a href="https://chameeleongame.netlify.app/" className="text-decoration-none" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                       </div>
                     </div>
@@ -47,6 +47,10 @@ export default function Projects(props) {
                         <div className="logo-div"><i className="fab fa-npm"></i></div>
                         <div className="logo-div"><i className="fab fa-js-square"></i></div>
                         <div className="logo-div"><i className="fab fa-node"></i></div>
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons-colored/supabase-logo-icon.svg" width="50" /></div>
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="images/revenueCat.png" width="50" /></div>
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons-colored/appStoreConnect.svg" width="50" /></div>
+                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons-colored/googlePlayConsole.svg" width="50" /></div>
                       </div>
                     </div>
                   </div>

@@ -32,6 +32,9 @@ export default function Skills(props) {
             <a href="https://www.php.net/" target="_blank"><img width="125.9" src="images/php.png" /></a>
           </div>
           <div className="skills-icon">
+            <a href="https://supabase.com/" target="_blank"><img width="125.9" src="icons-colored/supabase-logo-icon.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://getbootstrap.com/" target="_blank"><img width="100" src="icons-colored/bootstrap.svg"/></a>
           </div>
           <div className="skills-icon">
@@ -77,6 +80,12 @@ export default function Skills(props) {
             <a href="https://vercel.com/home" target="_blank"><img width="90" src="icons/vercel-long.svg" /></a>
           </div>
           <div className="skills-icon">
+            <a href="https://developer.apple.com/app-store-connect/" target="_blank"><img width="125.9" src="icons-colored/appStoreConnect.svg" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://developer.android.com/distribute/console" target="_blank"><img width="125.9" src="icons-colored/googlePlayConsole.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://railway.app/" target="_blank"><img width="90" src="icons/railway.svg" /></a>
           </div>
           <div className="skills-icon">
@@ -93,6 +102,9 @@ export default function Skills(props) {
           </div>
           <div className="skills-icon">
             <a href="https://plaid.com/" target="_blank"><img width="100" src="icons/plaid.svg" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://www.revenuecat.com/" target="_blank"><img width="125.9" src="images/revenueCat.png" /></a>
           </div>
           <div className="skills-icon">
             <a href="https://slack.com/" target="_blank"><img width="99.82" src="icons-colored/slack.svg"/></a>
