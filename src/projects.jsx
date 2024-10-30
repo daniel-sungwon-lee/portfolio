@@ -50,7 +50,7 @@ export default function Projects(props) {
                         <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons-colored/supabase-logo-icon.svg" width="50" /></div>
                         <div className="logo-div d-flex justify-content-center align-items-center"><img src="images/revenueCat.png" width="50" /></div>
                         <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons-colored/appStoreConnect.svg" width="50" /></div>
-                        <div className="logo-div d-flex justify-content-center align-items-center"><img src="icons-colored/googlePlayConsole.svg" width="50" /></div>
+                        <div className="logo-div d-flex justify-content-center align-items-center m-3"><img src="icons-colored/googlePlayConsole.svg" width="50" /></div>
                       </div>
                     </div>
                   </div>
