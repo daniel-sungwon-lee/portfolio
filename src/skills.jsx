@@ -35,6 +35,12 @@ export default function Skills(props) {
             <a href="https://supabase.com/" target="_blank"><img width="125.9" src="icons-colored/supabase-logo-icon.svg" /></a>
           </div>
           <div className="skills-icon">
+            <a href="https://neon.com/" target="_blank"><img width="125.9" src="icons-colored/neon-light-color.svg" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://tailwindcss.com/" target="_blank"><img width="100" src="icons-colored/tailwindcss.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://getbootstrap.com/" target="_blank"><img width="100" src="icons-colored/bootstrap.svg"/></a>
           </div>
           <div className="skills-icon">
@@ -50,7 +56,10 @@ export default function Skills(props) {
             <a href="https://www.npmjs.com/" target="_blank"><img width="152" src="icons-colored/npm.svg"/></a>
           </div>
           <div className="skills-icon">
-            <a href="https://greensock.com/" target="_blank"><img width="152" src="icons-colored/gsap-greensock.svg" /></a>
+            <a href="https://gsap.com/" target="_blank"><img width="152" src="icons-colored/gsap-greensock.svg" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://zustand-demo.pmnd.rs/" target="_blank"><img width="100" src="icons-colored/zustand.svg" /></a>
           </div>
           <div className="skills-icon">
             <a href="https://redux.js.org/" target="_blank"><img width="100" src="icons-colored/redux.svg" /></a>
@@ -101,17 +110,26 @@ export default function Skills(props) {
             <a href="https://www.netlify.com/" target="_blank"><img width="100" src="icons-colored/netlify.svg"/></a>
           </div>
           <div className="skills-icon">
+            <a href="https://stripe.com/" target="_blank"><img width="100" src="icons-colored/stripe-logo.svg" /></a>
+          </div>
+          <div className="skills-icon">
             <a href="https://plaid.com/" target="_blank"><img width="100" src="icons/plaid.svg" /></a>
           </div>
           <div className="skills-icon">
             <a href="https://www.revenuecat.com/" target="_blank"><img width="125.9" src="images/revenueCat.png" /></a>
           </div>
           <div className="skills-icon">
+            <a href="https://nodemailer.com/" target="_blank"><img width="125.9" src="images/nodemailer.png" /></a>
+          </div>
+          <div className="skills-icon">
+            <a href="https://developers.google.com/analytics" target="_blank"><img width="125.9" src="icons-colored/googleAnalytics.svg" /></a>
+          </div>
+          {/* <div className="skills-icon">
             <a href="https://slack.com/" target="_blank"><img width="99.82" src="icons-colored/slack.svg"/></a>
           </div>
           <div className="skills-icon">
             <a href="https://www.shopify.com/" target="_blank"><img width="87.96" src="icons-colored/shopify.svg" /></a>
-          </div>
+          </div> */}
         </div>
       </Fade>
     </div>
